@@ -1,3 +1,9 @@
+# ============================================
+# Unity 6 .gitignore para Windows 11
+# Basado en las recomendaciones oficiales
+# ============================================
+
+# --- Carpetas generadas por Unity ---
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -6,15 +12,15 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 UserSettings/
-Assets/AssetStoreTools*
-.vs/
+
+# --- Archivos y configuraciones de usuario ---
+*.user
+*.userprefs
 *.csproj
 *.unityproj
 *.sln
 *.suo
 *.tmp
-*.user
-*.userprefs
 *.pidb
 *.booproj
 *.svd
@@ -22,3 +28,72 @@ Assets/AssetStoreTools*
 *.mdb
 *.opendb
 *.VC.db
+*.VC.VC.opendb
+
+# --- Configuración específica de IDEs ---
+.vscode/
+.idea/
+.vs/
+*.DotSettings
+
+# --- Archivos de sistema (Windows) ---
+[Dd]esktop.ini
+[Tt]humbs.db
+ehthumbs.db
+*.lnk
+
+# --- Archivos de Unity Asset Store ---
+Assets/AssetStoreTools*
+
+# --- Archivos de compilación o exportación ---
+[Bb]uilds/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+*.apk
+*.aab
+*.app
+*.xcodeproj/
+*.xcworkspace/
+*.ipa
+
+# --- TextMesh Pro ---
+Assets/TextMesh Pro/Examples & Extras/
+
+# --- Archivos de colaboración ---
+*.collabignore
+*.lock
+*.orig
+*.merge
+
+# --- Archivos de LFS ---
+*.psd
+*.tga
+*.png
+*.jpg
+*.fbx
+*.blend
+*.wav
+*.mp3
+*.ogg
+*.zip
+
+# --- Configuración opcional (si usas Git LFS) ---
+# Para activar, usa: git lfs track "*.ext"
+# .gitattributes se añadirá automáticamente
+
+# --- Archivos adicionales de Unity Hub ---
+*.pid
+*.crash
+
+# --- Cache y datos locales ---
+[Bb]ackup*/
+[Cc]ache/
+[Cc]rashReports/
+Logs/
+
+# --- Carpetas específicas de Windows ---
+*.exe
+*.dll
+*.manifest
+*.db
