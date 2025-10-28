@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class AngelScript : MonoBehaviour
 {
-    public Rigidbody2D myRigidbody;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Rigidbody2D myRigidbody;
+    public float flapStrength;
     void Start()
     {
     }
@@ -13,7 +14,7 @@ public class AngelScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) == true)
         {
-            myRigidbody.linearVelocity = Vector2.up * 10;
+            myRigidbody.linearVelocity = Vector2.up * flapStrength;
         }
     }
 }

@@ -227,7 +227,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 2
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -252,6 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   myRigidbody: {fileID: 511099952}
+  flapStrength: 12
 --- !u!60 &511099954
 PolygonCollider2D:
   m_ObjectHideFlags: 0
