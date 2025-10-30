@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4c588086776322443946414b832a9f6d
+guid: 93209bb012dd3a3489cf104bef2c3830
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3041757952484720382
-    second: crazy_angel_0
+      213: 8041388476908278082
+    second: flappy_angel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: crazy_angel_0
+      name: flappy_angel_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 928
-        height: 557
+        width: 926
+        height: 556
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 201cd65124189c5d0800000000000000
-      internalID: -3041757952484720382
+      spriteID: 2419903f630c89f60800000000000000
+      internalID: 8041388476908278082
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      crazy_angel_0: -3041757952484720382
+      flappy_angel_0: 8041388476908278082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
