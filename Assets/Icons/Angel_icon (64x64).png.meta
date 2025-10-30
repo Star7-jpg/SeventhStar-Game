@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d99d594532ed9914db07f2610c86f516
+guid: a889cf1c42b88cb40b6a426d633ad9bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7001717550434760533
-    second: Gemini_Generated_Image_yo9bkbyo9bkbyo9b (5)_0
+      213: -1223388218443152052
+    second: Angel_icon (64x64)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gemini_Generated_Image_yo9bkbyo9bkbyo9b (5)_0
+      name: Angel_icon (64x64)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 21
-        width: 292
-        height: 993
+        y: 0
+        width: 61
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba8c7bc0cf6e4de90800000000000000
-      internalID: -7001717550434760533
+      spriteID: c454c49a5e6a50fe0800000000000000
+      internalID: -1223388218443152052
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gemini_Generated_Image_yo9bkbyo9bkbyo9b (5)_0: -7001717550434760533
+      Angel_icon (64x64)_0: -1223388218443152052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
