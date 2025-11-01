@@ -227,7 +227,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 4
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   myRigidbody: {fileID: 511099952}
-  flapStrength: 12
+  flapStrength: 18
 --- !u!60 &511099954
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -823,7 +823,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sword: {fileID: 4721628921100619930, guid: 012ae4050fc159e439296fcff026f428, type: 3}
-  spawnRate: 2
+  spawnRate: 3
+  heightOffset: 10
 --- !u!4 &1260787509
 Transform:
   m_ObjectHideFlags: 0
