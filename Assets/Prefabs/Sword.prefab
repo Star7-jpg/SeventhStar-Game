@@ -187,8 +187,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8db8e901ddb1d06429fdcfc921a5720a, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::SwordMoveScript
   moveSpeed: 5
+  deadZone: -32
 --- !u!1 &8091638857794260681
 GameObject:
   m_ObjectHideFlags: 0
