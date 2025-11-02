@@ -821,9 +821,9 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fe5e08dca9dfa349905d35f85cba1de, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::SwordSpawnerScript
   sword: {fileID: 4721628921100619930, guid: 012ae4050fc159e439296fcff026f428, type: 3}
-  spawnRate: 3
+  spawnRate: 3.3
   heightOffset: 10
 --- !u!4 &1260787509
 Transform:

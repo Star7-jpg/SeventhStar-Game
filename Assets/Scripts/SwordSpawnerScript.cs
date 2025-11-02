@@ -4,7 +4,7 @@ public class SwordSpawnerScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public GameObject sword; //Referencia al prefab de la espada
-    public float spawnRate; //Tasa de aparición en segundos
+    public float spawnRate = 3.3f; //Tasa de aparición en segundos
     private float timer = 0;
 
     public float heightOffset = 10;
