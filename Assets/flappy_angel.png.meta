@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7e1c37986b5a7b544b8004a9d8a44677
+guid: 93209bb012dd3a3489cf104bef2c3830
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 449684950102670053
-    second: Angel_icon(Default)_0
+      213: 8041388476908278082
+    second: flappy_angel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Angel_icon(Default)_0
+      name: flappy_angel_0
       rect:
         serializedVersion: 2
-        x: 11
+        x: 1
         y: 0
-        width: 821
-        height: 832
+        width: 926
+        height: 556
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ea75bf541a9d3600800000000000000
-      internalID: 449684950102670053
+      spriteID: 2419903f630c89f60800000000000000
+      internalID: 8041388476908278082
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Angel_icon(Default)_0: 449684950102670053
+      flappy_angel_0: 8041388476908278082
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
