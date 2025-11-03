@@ -3,9 +3,9 @@ using UnityEngine;
 public class SwordMoveScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public float moveSpeed = 5;
-    public float deadZone = -32;
-    
+   [SerializeField] private float moveSpeed = 5; //Velocidad de movimiento de la espada
+   [SerializeField] private float deadZone = -32; //Zona donde la espada se destruye
+
     void Start()
     {
         
