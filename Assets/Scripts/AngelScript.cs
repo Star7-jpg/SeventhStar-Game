@@ -3,8 +3,8 @@ using UnityEngine;
 public class AngelScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public Rigidbody2D myRigidbody;
-    public float flapStrength = 18;
+    [SerializeField] private Rigidbody2D myRigidbody; //Referencia al Rigidbody2D del ángel
+    [SerializeField] private float flapStrength = 18; //Fuerza del aleteo
     void Start()
     {
     }
@@ -14,7 +14,7 @@ public class AngelScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) == true)
         {
-            myRigidbody.linearVelocity = Vector2.up * flapStrength;
+            myRigidbody.linearVelocity = Vector2.up * flapStrength; //Aplica una fuerza hacia arriba al Rigidbody2D cuando se presiona la barra espaciadora
         }
     }
 }
