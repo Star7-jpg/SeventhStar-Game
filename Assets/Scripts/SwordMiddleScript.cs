@@ -6,7 +6,7 @@ public class SwordMiddleScript : MonoBehaviour
     public LogicScript logic;
     void Start()
     {
-        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>(); //Obtiene la referencia al LogicScript en el objeto con la etiqueta "Logic"
     }
 
     // Update is called once per frame
