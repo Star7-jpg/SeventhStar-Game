@@ -20,6 +20,11 @@ public class LogicScript : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Recarga la escena actual
     }
 
+    public void BacktoMenu()
+    {
+        SceneManager.LoadScene("StartMenu"); //Carga la escena del menú de inicio
+    }
+
     public void gameOver()
     {
         gameOverScreen.SetActive(true); //Muestra la pantalla de Game Over
